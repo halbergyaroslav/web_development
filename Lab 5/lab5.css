@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #343a40;
+}
+
+#xylophone {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.key {
+    width: 100px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+#keyC {
+    background-color: #ff9999;
+}
+
+#keyD {
+    background-color: #ffcc99;
+}
+
+#keyE {
+    background-color: #ffff99;
+}
+
+#keyF {
+    background-color: #ccff99;
+}
+
+#keyG {
+    background-color: #99ff99;
+}
+
+#keyA {
+    background-color: #99ffcc;
+}
+
+#keyB {
+    background-color: #99ccff;
+}
+
+.key:active {
+    transform: scale(0.95);
+}
+
