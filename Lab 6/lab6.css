@@ -1,0 +1,50 @@
+body {
+    background-color: #252525;
+}
+
+#music-player {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+  
+.track-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+  
+.controls button {
+    margin: 0 10px;
+}
+  
+#track-list .list-group-item {
+    background-color: #252525;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#track-list .list-group-item:hover{
+    background-color: #404040;
+}
+  
+.track-thumb {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.font-weight-bold {
+    color:white;
+}
+
+#track-time {
+    margin-right: 0px;
+    display: inline-block;
+}
+ 
+.img-fluid {
+    height: 50px;
+    width: 50px;
+}

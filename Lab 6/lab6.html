@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Music Player</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <link rel="stylesheet" href="lab6.css">
+        </head>
+
+        <body>
+            <ul id="track-list" class="list-group mt-4">
+                <li class="list-group-item d-flex align-items-center" data-index="0">
+                    <img src="Assets/Images/Imagine Dragons - Enemy (Feat. JID).jpg" alt="Enemy (Feat. JID)" class="img-fluid">
+                    <div class="ml-3 d-flex flex-column">
+                        <span class="font-weight-bold">Enemy (Feat. JID)</span>
+                        <small class="text-muted">Imagine Gragons</small>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex align-items-center" data-index="1">
+                    <img src="Assets/Images/Meric Again - Industry Baby (feat. 22angels).jpg" alt="Industry Baby (feat. 22angels)" class="img-fluid">
+                    <div class="ml-3 d-flex flex-column">
+                        <span class="font-weight-bold">Industry Baby (feat. 22angels)</span>
+                        <small class="text-muted">Meric Again</small>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex align-items-center" data-index="2">
+                    <img src="Assets/Images/T3NZU - Balenciaga.jpg" alt="Balenciaga" class="img-fluid">
+                    <div class="ml-3 d-flex flex-column">
+                        <span class="font-weight-bold">Balenciaga</span>
+                        <small class="text-muted">T3NZU</small>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex align-items-center" data-index="3">
+                    <img src="Assets/Images/Varien ft. Andrew Zink - Can You Feel My Heart.jpg" alt="Can You Feel My Heart" class="img-fluid">
+                    <div class="ml-3 d-flex flex-column">
+                        <span class="font-weight-bold">Can You Feel My Heart</span>
+                        <small class="text-muted">Varien ft. Andrew Zink</small>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="container mt-5" id="music-player">
+                <img id="track-cover" src="Assets/Images/Imagine Dragons - Enemy (Feat. JID).jpg" alt="Track Cover" class="img-fluid mb-3 track-cover">
+
+                <h5 id="track-title" class="font-weight-bold">Enemy (Feat. JID)</h5>
+                <p id="track-artist" class="text-muted">Imagine Gragons</p>
+
+                <div class="controls mt-3">
+                    <button id="prev" class="btn btn-primary">Prev</button>
+                    <button id="play-pause" class="btn btn-success">Play</button>
+                    <button id="next" class="btn btn-primary">Next</button>
+                </div>
+            </div>
+
+            <audio id="audio-player" src="Assets/Audio/track1.mp3"></audio>
+            <script src="lab6.js"></script>
+        </body>
+    </html>
