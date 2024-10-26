@@ -15,12 +15,13 @@ const tracks = [
         artist: 'T3NZU', 
         audio: 'Assets/Audios/T3NZU - Balenciaga.mp3', 
         image: 'Assets/Images/T3NZU - Balenciaga.jpg',
-        time: 
+        time: 168
     },
     {name: 'Can You Feel My Heart', 
         artist: 'Varien ft. Andrew Zink', 
         audio: 'Assets/Audios/Varien ft. Andrew Zink - Can You Feel My Heart.mp3', 
-        image: 'Assets/Images/Varien ft. Andrew Zink - Can You Feel My Heart.jpg'
+        image: 'Assets/Images/Varien ft. Andrew Zink - Can You Feel My Heart.jpg',
+        time: 232
     }
 ];
   
@@ -36,9 +37,11 @@ const trackList = document.getElementById('track-list').children;
 let currentIndex = 0;
 
 let timer = 0;
+
+//Запускаем таймер
 window.setInterval(function () {
-  doughnut = doughnut + 1;
-  document.getElementById("doughnuts").innerHTML = "You have " + doughnut + " doughnuts!";
+    if (!audioPlayer.paused) timer = timer + 1;
+    document.getElementById('timer').textContent = timer;
 }, 1000);
   
 function playTrack(index) {
@@ -54,6 +57,11 @@ function playTrack(index) {
     //Запускаем трек
     audioPlayer.play();
     playPauseButton.textContent = 'Pause';
+
+    if (timer > track.time) {
+        currentIndex = (currentIndex - 1 + tracks.length) % tracks.length;
+        playTrack(currentIndex); 
+    }
 }
   
 playPauseButton.addEventListener('click', () => {
@@ -72,12 +80,14 @@ playPauseButton.addEventListener('click', () => {
 nextButton.addEventListener('click', () => {
     //Переходим к следующему треку
     currentIndex = (currentIndex + 1) % tracks.length;
+    timer = 0;
     playTrack(currentIndex);
 });
   
 prevButton.addEventListener('click', () => {
     //Переходим к предыдущему треку
     currentIndex = (currentIndex - 1 + tracks.length) % tracks.length;
+    timer = 0;
     playTrack(currentIndex);
 });
   
@@ -85,6 +95,7 @@ Array.from(trackList).forEach((trackItem, index) => {
     //По клику включаем музыку
     trackItem.addEventListener('click', () => {
         currentIndex = index;
+        timer = 0;
         playTrack(currentIndex);
     });
 });
