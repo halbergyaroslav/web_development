@@ -1,0 +1,55 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="lab7.css">
+    <title>Hero Randomizer</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img id="hero-image" class="img-fluid rounded" src="" alt="Hero Image">
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 id="hero-title" class="card-title">Hero Name</h5>
+                        <p id="hero-description" class="card-text">First Appearance: <span></span></p>
+                        <h6>Power Stats:</h6>
+                        <ul id="power-stats" class="list-group mb-3">
+                            <li class="list-group-item">Intelligence: <span id="intelligence"></span></li>
+                            <li class="list-group-item">Strength: <span id="strength"></span></li>
+                            <li class="list-group-item">Speed: <span id="speed"></span></li>
+                            <li class="list-group-item">Durability: <span id="durability"></span></li>
+                            <li class="list-group-item">Power: <span id="power"></span></li>
+                            <li class="list-group-item">Combat: <span id="combat"></span></li>
+                        </ul>
+                        <h6>Appearance:</h6>
+                        <ul id="appearance" class="list-group mb-3">
+                            <li class="list-group-item">Gender: <span id="gender"></span></li>
+                            <li class="list-group-item">Race: <span id="race"></span></li>
+                            <li class="list-group-item">Height: <span id="height"></span></li>
+                            <li class="list-group-item">Weight: <span id="weight"></span></li>
+                            <li class="list-group-item">Eye Color: <span id="eyeColor"></span></li>
+                            <li class="list-group-item">Hair Color: <span id="hairColor"></span></li>
+                        </ul>
+                        <h6>Biography:</h6>
+                        <ul id="biography" class="list-group mb-3">
+                            <li class="list-group-item">Full Name: <span id="fullName"></span></li>
+                            <li class="list-group-item">Aliases: <span id="aliases"></span></li>
+                            <li class="list-group-item">Place of Birth: <span id="placeOfBirth"></span></li>
+                            <li class="list-group-item">Publisher: <span id="publisher"></span></li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="onButtonClick()">Get Random Hero</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lab7.js"></script>
+</body>
+</html>
