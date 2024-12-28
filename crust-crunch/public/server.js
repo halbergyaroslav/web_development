@@ -38,7 +38,7 @@ app.get('/api/orders', (req, res) => {
 // Маршрут для получения заказа
 app.get('/api/orders/:id', (req, res) => {
   const { id } = req.params;
-  const newStatus = req.body.status;Ы
+  const newStatus = req.body.status;
   const orders = getOrders();
   const orderIndex = orders.orders.findIndex(o => o.id === parseInt(id));
 
