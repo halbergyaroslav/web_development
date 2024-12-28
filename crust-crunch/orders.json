@@ -1,0 +1,31 @@
+{
+  "orders": [
+    {
+      "pizza": "Bonny",
+      "description": "Pepperoni, champignons, mozzarella cheese and garlic sauce",
+      "src": "http://localhost:3000/pizza_src/bonny.png",
+      "details": [
+        "Peperoni",
+        "Onion",
+        "Chicken"
+      ],
+      "price": 8.92,
+      "status": "delivered",
+      "id": 1
+    },
+    {
+      "pizza": "Peperoni",
+      "description": "Pepperoni, mozzarella and tomato sauce",
+      "src": "http://localhost:3000/pizza_src/pepperoni-1.png",
+      "details": [
+        "Parmezan",
+        "Peperoni",
+        "Onion",
+        "Seasonings"
+      ],
+      "price": 9.25,
+      "status": "delivered",
+      "id": 2
+    }
+  ]
+}

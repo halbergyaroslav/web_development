@@ -1,0 +1,268 @@
+{
+    "hitzz": [
+        {
+            "id": 1,
+            "src": "./pizza_src/margarita.png",
+            "name": "Margarita",
+            "description": "Mozzarella, cheddar and cheese sauce",
+            "price": 5.25
+        },
+        {
+            "id": 2,
+            "src": "./pizza_src/pepperoni-1.png",
+            "name": "Peperoni",
+            "description": "Pepperoni, mozzarella and tomato sauce",
+            "price": 6.55
+        },
+        {
+            "id": 3,
+            "src": "./pizza_src/bonny.png",
+            "name": "Bonny",
+            "description": "Pepperoni, champignons, mozzarella cheese and garlic sauce",
+            "price": 6.7
+        },
+        {
+            "id": 4,
+            "src": "./pizza_src/new_wave.png",
+            "name": "New Wave",
+            "description": "Roasted chicken breast, spicy pineapple, mozzarella, red onion and tomato sauce",
+            "price": 6.7
+        },
+        {
+            "id": 5,
+            "src": "./pizza_src/tyler.png",
+            "name": "Tyler",
+            "description": "Smoked pork brisket, baked potatoes in garlic sauce with mozzarella and fresh parsley",
+            "price": 6.7
+        },
+        {
+            "id": 6,
+            "src": "./pizza_src/bombora.png",
+            "name": "Bombora",
+            "description": "Parmigiano sauce, stewed minced beef, cheddar, mozzarella and natural cherry sauce",
+            "price": 7.6
+        },
+        {
+            "id": 7,
+            "src": "./pizza_src/dont_cry.png",
+            "name": "Don't Cry",
+            "description": "Smoked brisket in garlic sauce with dor blue cheese and mozzarella",
+            "price": 7.6
+        },
+        {
+            "id": 8,
+            "src": "./pizza_src/gravity.png",
+            "name": "Gravity",
+            "description": "Marinated beef, pepperoni, bacon, red onion, mozzarella and tomato sauce",
+            "price": 6.55
+        },
+        {
+            "id": 9,
+            "src": "./pizza_src/pepperoni_new.png",
+            "name": "Peperoni New!",
+            "description": "Caesar sauce with elderberry syrup, mozzarella and pepperoni",
+            "price": 6.7
+        },
+        {
+            "id": 10,
+            "src": "./pizza_src/dzango.png",
+            "name": "Django",
+            "description": "Marinated beef, champignons, ham, pickled cucumber, mozzarella and tomato sauce",
+            "price": 6.55
+        }
+    ],
+    "pizzas": [
+        {
+            "id": 11,
+            "src": "./pizza_src/english_breakfast.png",
+            "name": "English Breakfast",
+            "description": "Bacon, hunting sausages, tomatoes, quail eggs, mozzarella and cheese souce",
+            "price": 6.7
+        },
+        {
+            "id": 12,
+            "src": "./pizza_src/marge.png",
+            "name": "Marge",
+            "description": "Mozzarella, tomatoes, basil, oregano and tomato sauce",
+            "price": 5.25
+        },
+        {
+            "id": 13,
+            "src": "./pizza_src/surf_pizza.png",
+            "name": "Surf Pizza",
+            "description": "Chicken fillet, pineapples, mozzarella and tomato sauce",
+            "price": 6.55
+        },
+        {
+            "id": 14,
+            "src": "./pizza_src/forever.png",
+            "name": "Forever",
+            "description": "Pepperoni, dorblu, mozzarella and cheese sauce",
+            "price": 6.55
+        },
+        {
+            "id": 15,
+            "src": "./pizza_src/chick.png",
+            "name": "Chick",
+            "description": "Chicken fillet, tomatoes, champignons, mozzarella and garlic sauce",
+            "price": 5.5
+        },
+        {
+            "id": 16,
+            "src": "./pizza_src/woodstock.png",
+            "name": "Woodstock",
+            "description": "Ham, champignons, mozzarella and garlic sauce",
+            "price": 6.55
+        },
+        {
+            "id": 17,
+            "src": "./pizza_src/elwis.png",
+            "name": "Elwis",
+            "description": "Bacon, ham, tomatoes, red onion, mozzarella, pickles and cheese sauce",
+            "price": 6.7
+        },
+        {
+            "id": 18,
+            "src": "./pizza_src/super_cheese.png",
+            "name": "Super Cheese",
+            "description": "Mozzarella, parmesan, gouda, dorblu and tomato sauce",
+            "price": 6.7
+        },
+        {
+            "id": 19,
+            "src": "./pizza_src/shock_blue.png",
+            "name": "Shock Blue",
+            "description": "Stewed minced beef, mozzarella, blue cheese and tomato sauce",
+            "price": 6.55
+        },
+        {
+            "id": 20,
+            "src": "./pizza_src/hot_cherry.png",
+            "name": "Hot&Cherry",
+            "description": "Baked chicken breast with cherry BBQ sauce, mozzarella, jalapeno pepper and tomato sauce",
+            "price": 7.6
+        },
+        {
+            "id": 21,
+            "src": "./pizza_src/fire_starter.png",
+            "name": "Fier Starter",
+            "description": "Spicy pepperoni, sausage, mozzarella, jalapeno pepper and tomato sauce",
+            "price": 6.7
+        },
+        {
+            "id": 22,
+            "src": "./pizza_src/funk.png",
+            "name": "Funk",
+            "description": "Chicken fillet, tomatoes, mozzarella, sesame rim and cheese sauce",
+            "price": 6.7
+        }
+    ],
+    "beverages": [
+        {
+            "id": 23,
+            "src": "./pizza_src/soda_pepper.png",
+            "name": "Dr Pepper & Сream Soda",
+            "description": "330 ml",
+            "price": 2.26
+        },
+        {
+            "id": 24,
+            "src": "./pizza_src/cola.png",
+            "name": "Coca Cola",
+            "description": "330 ml",
+            "price": 1
+        },
+        {
+            "id": 25,
+            "src": "./pizza_src/cherry_pepper.png",
+            "name": "Dr Pepper Cherry",
+            "description": "330 ml",
+            "price": 2.26
+        },
+        {
+            "id": 26,
+            "src": "./pizza_src/schweppes.png",
+            "name": "Schweppes",
+            "description": "200 ml",
+            "price": 1.96
+        },
+        {
+            "id": 27,
+            "src": "./pizza_src/capri_sun.png",
+            "name": "Capri-Sun",
+            "description": "200 ml",
+            "price": 0.95
+        }        
+    ],
+    "toppingspizza": [
+        {
+            "id": 1,
+            "src": "./pizza_src/jalapeno.png",
+            "name": "Jalapeno",
+            "price": 0.48
+        },
+        {
+            "id": 2,
+            "src": "./pizza_src/parmezan.png",
+            "name": "Parmezan",
+            "price": 0.87
+        },
+        {
+            "id": 3,
+            "src": "./pizza_src/garlic.png",
+            "name": "Garlic",
+            "price": 0.48
+        },
+        {
+            "id": 4,
+            "src": "./pizza_src/pepperoni.png",
+            "name": "Peperoni",
+            "price": 0.87
+        },
+        {
+            "id": 5,
+            "src": "./pizza_src/onion.png",
+            "name": "Onion",
+            "description": "200 ml",
+            "price": 0.48
+        },
+        {
+            "id": 6,
+            "src": "./pizza_src/chicken.png",
+            "name": "Chicken",
+            "price": 0.87
+        },
+        {
+            "id": 7,
+            "src": "./pizza_src/pickles.png",
+            "name": "Pickles",
+            "price": 0.48
+        },
+        {
+            "id": 8,
+            "src": "./pizza_src/mushrooms.png",
+            "name": "Mushrooms",
+            "price": 0.48
+        },
+        {
+            "id": 9,
+            "src": "./pizza_src/seasonings.png",
+            "name": "Seasonings",
+            "price": 0.48
+        },
+        {
+            "id": 10,
+            "src": "./pizza_src/ham.png",
+            "name": "Ham",
+            "price": 0.87
+        }   
+    ],
+    "toppingsbeverages": [
+        {
+            "id": 38,
+            "src": "./pizza_src/ice.png",
+            "name": "Ice",
+            "price": 0
+        }
+    ]
+}

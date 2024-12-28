@@ -1,0 +1,188 @@
+/* Стили для body */
+body {
+  background-color: #f9f9f9 !important;
+}
+
+/* Стили для навигационных ссылок */
+.nav-link {
+  color: white !important;
+  margin-left: 20px;
+}
+
+.nav-link.active {
+  color: #f2d1a8 !important;
+}
+
+.nav-link:hover {
+  color: #f2d1a8 !important;
+}
+
+/* Стили для карточек продуктов */
+.card-custom {
+  border: none !important;
+  box-shadow: none !important; 
+  margin: 15px !important; 
+  overflow: hidden;
+  background-color: #f9f9f9 !important; 
+  width: 100% !important; 
+  height: auto !important; 
+  cursor: pointer !important;
+}
+
+.card-img-top {
+  width: 100% !important; 
+  height: 300px !important;
+  object-fit: cover !important; 
+}
+
+.card-body {
+  padding-bottom: 0 !important; 
+}
+
+.card-footer {
+  padding-top: 30px !important; 
+  padding-bottom: 10px !important; 
+  border-top: none !important; 
+  background-color: #f9f9f9 !important;
+}
+
+.card-text {
+  display: -webkit-box !important;
+  display: box !important;
+  -webkit-line-clamp: 3 !important;
+  line-clamp: 3 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important; 
+  text-overflow: ellipsis !important; 
+  min-height: 4.5em !important;
+}
+
+/* Стили для заголовков секций */
+.section-title {
+  font-size: 2rem !important; 
+  font-weight: bold !important;
+  color: #59291D !important; 
+  text-transform: uppercase !important; 
+  border-bottom: 2px solid #f2d1a8 !important;
+  display: inline-block !important;
+  padding-bottom: 5px !important; 
+  margin-top: 30px !important;
+  margin-left: 20px !important; 
+}
+
+/* Стили для кнопки в карточке */
+.card-custom .btn-warning {
+  background-color: #FFF0E6 !important; 
+  color: #D66617 !important; 
+  border: none !important; 
+  border-radius: 25px !important; 
+  padding: 10px 20px !important; 
+}
+
+.card-custom .btn-warning:hover {
+  background-color: #F2D1A8 !important; 
+  color: #D66617 !important; 
+}
+
+/* Стили для кнопки в модальном окне */
+.modal-footer .btn-warning {
+  background-color: #F2D1A8 !important; 
+  color: #c4580b !important; 
+  border: none !important; 
+  border-radius: 25px !important; 
+  padding: 10px 20px !important; 
+  width: 50% !important; 
+}
+
+.modal-footer .btn-warning:hover {
+  background-color: #f0bb7a !important; 
+  color: #c4580b !important; 
+}
+
+#modal-toppings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#modal-toppings .card {
+  flex: 1 1 48%; 
+  border: 1px solid #ddd !important; 
+  box-shadow: none !important;
+  background-color: #F9F9F9 !important; 
+  display: flex;
+  flex-direction: column; 
+  height: 160px; 
+  border-radius: 5px; 
+}
+
+#modal-toppings .card-img-top {
+  width: 100% !important;
+  height: 50%; 
+  object-fit: cover !important; 
+  padding-bottom: 0 !important;
+}
+
+#modal-toppings .card-body {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  font-size: 12px !important; 
+  flex-grow: 1;
+  padding: 5px;
+}
+
+#modal-toppings .card-text {
+  font-size: 14px !important; 
+  color: #D66617 !important; 
+  text-align: center !important; 
+}
+
+#modal-toppings .card-title {
+  font-size: 14px !important; 
+  color: #000000 !important; 
+  text-align: center !important; 
+}
+
+/* Стили для карточки в маленьких экранах */
+@media (max-width: 768px) {
+  #modal-toppings .card {
+    flex: 1 1 100%; 
+  }
+}
+
+#add-toppings-title {
+  font-size: 1.0rem !important; 
+  font-weight: bold !important; 
+  color: #59291D !important; 
+  text-transform: uppercase !important; 
+  margin-bottom: 30px !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important; 
+}
+
+#modal-toppings .card.active {
+  border: 2px solid #F2D1A8 !important; 
+  box-shadow: 0 0 5px #F2D1A8 !important; 
+}
+
+/* Стили для footer */
+.footer {
+  background-color: #59291D !important;
+  color: #F2D1A8;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+.card-img-left {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-right: 1px solid #ddd;
+}
+
+.card-body {
+  padding-left: 15px;
+}
